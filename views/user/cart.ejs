@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include('../partials/head') %>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/sidebar.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/banner.css">
+    <link rel="stylesheet" href="/css/cart.css">
+</head>
+
+<body>
+  <div id="wrapper"></div>
+  <%- include('../partials/header') %>
+    <%- include('../partials/sidebar') %>
+
+      <main>
+        <section id="banner">
+          <div class="left">
+            <img src="/images/order-icon.png">
+            <span>Your Cart</span>
+          </div>
+          <div class="right">
+            <span>Satyam Kumar</span>
+            <img src="/images/myImg.jpg">
+          </div>
+        </section>
+        <section id="cart">
+          <div class="left">
+            <p class="key">Price</p>
+            <hr>
+            <div class="cart_item">
+              <a href="#" class="one">
+                <img src="/images/1.jpg">
+              </a>
+              <div class="two">
+                <a href="">
+                  Oswaal CBSE Question Bank Class 10 Social Science Book Chapterwise & Topicwise Includes Objective
+                  Types &
+                  MCQ's (For
+                  2022 Exam)
+                </a>
+                <span>by Satyam Traders</span>
+                <div class="tools">
+                  <div class="qty">
+                    <button class="ones">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path
+                          d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z" />
+                      </svg>
+                    </button>
+                    <input type="tel" name="quantity" value="1">
+                    <button class="twos">
+                      <svg viewBox="0 0 448 512">
+                        <path
+                          d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z" />
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="seperate"></div>
+                  <button class="delete">
+                    <svg viewBox="0 0 448 512">
+                      <path
+                        d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="three">
+                <p>₹ 460.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <p>Subtotal (1 items): <b>₹650.00</b></p>
+            <button class="one">Proceed to Buy</button>
+            <button class="two">Remove all from Cart</button>
+          </div>
+        </section>
+      </main>
+
+      <script src="/js/index.js"></script>
+      <%- include('../partials/footer') %>

@@ -1,0 +1,60 @@
+section#find {
+  width: 100%;
+  margin: 1rem 0;
+  padding: 1rem;
+  font-family: raleway;
+}
+
+section#find h1 {
+  display: block;
+  text-align: center;
+  position: relative;
+  padding-bottom: 5px;
+  -webkit-columns: #333;
+  columns: #333;
+  margin-bottom: 2rem;
+}
+
+section#find h1::before {
+  position: absolute;
+  width: 8%;
+  content: "";
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  border-bottom: 2px solid red;
+}
+
+section#find .find_area {
+  width: 100%;
+  height: 15rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+section#find .find_area a {
+  width: 50%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  -webkit-transition: opacity 0.1s ease-in-out;
+  transition: opacity 0.1s ease-in-out;
+}
+
+section#find .find_area a:hover {
+  opacity: 1;
+}
+
+section#find .find_area a.amazon {
+  background-image: url(/images/amazon.png);
+}
+
+section#find .find_area a.flipkart {
+  background-image: url(/images/flipkart.jpg);
+}

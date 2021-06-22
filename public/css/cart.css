@@ -1,0 +1,258 @@
+section#cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 24px 8rem;
+}
+
+section#cart .left,
+section#cart .right {
+  background: #fff;
+  font-family: roboto;
+}
+
+section#cart .left {
+  width: 80%;
+  margin-right: 24px;
+  padding: 20px;
+}
+
+section#cart .left h1 {
+  margin-bottom: 10px;
+}
+
+section#cart .left p.key {
+  width: 100%;
+  text-align: right;
+  color: #777;
+  padding: 0 10px;
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+section#cart .left hr {
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+section#cart .left .cart_item {
+  border-bottom: 1px solid #ccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 207px;
+}
+
+section#cart .left .cart_item a.one {
+  text-decoration: none;
+  color: #000;
+}
+
+section#cart .left .cart_item a.one img {
+  width: auto;
+  height: 100%;
+}
+
+section#cart .left .cart_item .two {
+  width: 60%;
+  margin: 0 10px;
+  padding: 15px 0;
+}
+
+section#cart .left .cart_item .two a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #7c68ff;
+}
+
+section#cart .left .cart_item .two a:hover {
+  color: #f55b5b;
+  text-decoration: underline;
+}
+
+section#cart .left .cart_item .two span {
+  font-size: 14px;
+}
+
+section#cart .left .cart_item .two .tools {
+  margin: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+section#cart .left .cart_item .two .tools .qty {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 32px;
+  border-radius: 25px;
+}
+
+section#cart .left .cart_item .two .tools .qty button {
+  height: 100%;
+  cursor: pointer;
+  border: none;
+  background: #ddd;
+  outline: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+  overflow: hidden;
+  position: relative;
+}
+
+section#cart .left .cart_item .two .tools .qty button.ones {
+  border-radius: 25px 0 0 25px;
+}
+
+section#cart .left .cart_item .two .tools .qty button.twos {
+  border-radius: 0 25px 25px 0;
+}
+
+section#cart .left .cart_item .two .tools .qty button:hover {
+  background: #40407a;
+  fill: #fff;
+}
+
+section#cart .left .cart_item .two .tools .qty button::before {
+  z-index: 0;
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  content: "";
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%) scale(0);
+  transform: translateX(-50%) translateY(-50%) scale(0);
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+section#cart .left .cart_item .two .tools .qty button:focus::before {
+  -webkit-transform: translateX(-50%) translateY(-50%) scale(1);
+  transform: translateX(-50%) translateY(-50%) scale(1);
+}
+
+section#cart .left .cart_item .two .tools .qty button svg {
+  height: 50%;
+  z-index: 1;
+}
+
+section#cart .left .cart_item .two .tools .qty input {
+  width: 70px;
+  border-radius: 0;
+  border: 2px solid #ddd;
+  padding: 0 10px;
+  outline: none;
+  font-size: 16px;
+}
+
+section#cart .left .cart_item .two .tools .qty input:focus {
+  border-color: #40407a;
+}
+
+section#cart .left .cart_item .two .tools button.delete {
+  outline: none;
+  cursor: pointer;
+  background: #ddd;
+  border: none;
+  padding: 5px 20px;
+  font-size: 16px;
+  height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+section#cart .left .cart_item .two .tools button.delete:hover > svg,
+section#cart .left .cart_item .two .tools button.delete:focus > svg {
+  fill: red;
+}
+
+section#cart .left .cart_item .two .tools button.delete svg {
+  width: 16px;
+}
+
+section#cart .left .cart_item .two .tools .seperate {
+  width: 1px;
+  height: 18px;
+  background: #ddd;
+  margin: 0 10px;
+}
+
+section#cart .left .cart_item .three {
+  margin-left: auto;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+section#cart .right {
+  width: 20%;
+  padding: 15px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+section#cart .right p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+section#cart .right p b {
+  font-weight: 700;
+}
+
+section#cart .right button {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  margin: 15px 0;
+  height: 32px;
+  font-size: 14px;
+  border: none;
+  border-radius: 3px;
+  -webkit-transition: background-color 0.1s ease-in-out;
+  transition: background-color 0.1s ease-in-out;
+  outline: none;
+}
+
+section#cart .right button.one {
+  background: #ffd814;
+}
+
+section#cart .right button.one:hover {
+  background: #f7ca00;
+}
+
+section#cart .right button.two {
+  background: #f44336;
+  color: #fff;
+}
+
+section#cart .right button.two:hover {
+  background: #ff0000;
+}

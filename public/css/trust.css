@@ -1,0 +1,44 @@
+section#trust {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: #fff;
+  margin-bottom: 1rem;
+  padding: 1rem 0;
+}
+
+section#trust a {
+  width: 20rem;
+  padding: 2rem;
+  text-align: center;
+  border: 2px solid #ccc;
+  text-decoration: none;
+  color: #000;
+  font-family: nunito;
+  margin: 0 5px;
+  opacity: 0.9;
+}
+
+section#trust a:hover,
+section#trust a:focus {
+  opacity: 1;
+}
+
+section#trust a img {
+  width: 5rem;
+  height: 5rem;
+}
+
+section#trust a h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+section#trust a p {
+  color: #333;
+  font-size: 14px;
+}

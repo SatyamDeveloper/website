@@ -1,0 +1,205 @@
+section#search {
+  width: 100%;
+}
+
+section#search .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 10px 25px;
+  background: #232f3e;
+  color: #fff;
+  -webkit-box-shadow: 0 0 10px #ddd;
+  box-shadow: 0 0 10px #ddd;
+  font-family: roboto;
+}
+
+section#search .top .one span {
+  color: orange;
+}
+
+section#search .top .two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+
+section#search .top .two button {
+  border-radius: 8px;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(213, 217, 217, 0.3);
+  box-shadow: 0 2px 5px 0 rgba(213, 217, 217, 0.3);
+  background: #fff;
+  border: 2px solid #222;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 3px 10px;
+  font-size: 12px;
+}
+
+section#search .top .two button:hover {
+  background: #e3e6e6;
+}
+
+section#search .top .two button:focus {
+  border-color: #007185;
+  -webkit-box-shadow: 0 0 0 3px #c8f3fa;
+  box-shadow: 0 0 0 3px #c8f3fa;
+  background: #edfdff;
+}
+
+section#search .top .two button svg {
+  width: 10px;
+  fill: #333;
+  margin-left: 5px;
+}
+
+section#search .top .two select {
+  position: absolute;
+  top: 0;
+  right: 0;
+  pointer-events: none;
+}
+
+section#search .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+section#search .bottom .left {
+  width: 18%;
+  background: #fff;
+  -webkit-box-shadow: 1px 0 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 0 5px rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  font-family: nunito;
+  z-index: 1;
+}
+
+section#search .bottom .left .box {
+  margin-bottom: 15px;
+}
+
+section#search .bottom .left .box h3 {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+section#search .bottom .left .box a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  opacity: 0.8;
+}
+
+section#search .bottom .left .box a:hover {
+  opacity: 1;
+  color: #f55b5b;
+}
+
+section#search .bottom .left .box a svg {
+  fill: orange;
+  width: 20px;
+}
+
+section#search .bottom .right {
+  width: 82%;
+}
+
+section#search .bottom .right #products {
+  margin: 0;
+}
+
+section#search .bottom .right #products .product_area {
+  margin-top: 0;
+}
+
+section#search .bottom .right #products .product_area .product {
+  margin: 15px auto;
+}
+
+section#search .bottom .right hr {
+  border: none;
+  border-top: 2px solid #ddd;
+}
+
+section#search .bottom .right .related_search {
+  width: 100%;
+  background: #fff;
+  padding: 15px;
+  z-index: 0;
+}
+
+section#search .bottom .right .related_search h1 {
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+section#search .bottom .right .related_search .all_search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+section#search .bottom .right .related_search .all_search a {
+  border-radius: 25px;
+  width: 30%;
+  margin: 8px auto;
+  height: 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 10px;
+  background: #ccc;
+  text-decoration: none;
+  color: #000;
+  font-family: ubuntu;
+  -webkit-transition: background-color, -webkit-transform 0.2s ease-in-out;
+  transition: background-color, -webkit-transform 0.2s ease-in-out;
+  transition: background-color, transform 0.2s ease-in-out;
+  transition: background-color, transform 0.2s ease-in-out,
+    -webkit-transform 0.2s ease-in-out;
+}
+
+section#search .bottom .right .related_search .all_search a:hover {
+  background: #40407a;
+  fill: #fff;
+  color: #fff;
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+section#search .bottom .right .related_search .all_search a span {
+  padding-left: 20px;
+}
+
+section#search .bottom .right .related_search .all_search a svg {
+  margin-left: auto;
+  margin-right: 10px;
+  width: 20px;
+}

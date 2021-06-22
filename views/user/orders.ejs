@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include('../partials/head') %>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/sidebar.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/banner.css">
+    <link rel="stylesheet" href="/css/order.css">
+</head>
+
+<body>
+  <div id="wrapper"></div>
+  <%- include('../partials/header') %>
+    <%- include('../partials/sidebar') %>
+
+      <main>
+        <section id="banner">
+          <div class="left">
+            <img src="/images/box-icon.png">
+            <span>Your Orders</span>
+          </div>
+          <div class="right">
+            <span>Satyam Kumar</span>
+            <img src="/images/myImg.jpg">
+          </div>
+        </section>
+        <section id="order">
+          <div class="search">
+            <input type="text" name="order_id" placeholder="Search all orders">
+            <button>Search Orders</button>
+          </div>
+          <div class="order_area">
+            <div class="item">
+              <div class="top">
+                <div class="pip">
+                  <h4>ORDER PLACED</h4>
+                  <p>1 April 2021</p>
+                </div>
+                <div class="pip">
+                  <h4>TOTAL</h4>
+                  <p>₹500.00</p>
+                </div>
+                <div class="pip">
+                  <h4>SHIP TO</h4>
+                  <p>Satyam Kumar</p>
+                </div>
+                <div class="pip">
+                  <h4>ORDER # 407-5491210-2854746</h4>
+                </div>
+              </div>
+              <div class="bottom">
+                <div class="left">
+                  <div class="aee">
+                    <h1>Dispatched</h1>
+                  </div>
+                  <div class="bee">
+                    <div class="pic">
+                      <img src="/images/1.jpg">
+                    </div>
+                    <div class="details">
+                      <a href="#">Educart Most Recommended Combo | Maths (STANDARD) + Science + Social Science + English
+                        CBSE Sample Papers Books Of Class 10</a>
+                      <p class="seller">Sold by: <a href="#">Satyam Traders</a></p>
+                      <p class="price">₹500.00</p>
+                      <button id="again">
+                        <img src="/images/buy-again.png">
+                        <span>Buy it again</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="right">
+                  <a href="#" id="track">Track package</a>
+                  <a href="#">Request cancellation</a>
+                  <a href="#">Write a product review</a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="top">
+                <div class="pip">
+                  <h4>ORDER PLACED</h4>
+                  <p>1 April 2021</p>
+                </div>
+                <div class="pip">
+                  <h4>TOTAL</h4>
+                  <p>₹500.00</p>
+                </div>
+                <div class="pip">
+                  <h4>SHIP TO</h4>
+                  <p>Satyam Kumar</p>
+                </div>
+                <div class="pip">
+                  <h4>ORDER # 407-5491210-2854746</h4>
+                </div>
+              </div>
+              <div class="bottom">
+                <div class="left">
+                  <div class="aee">
+                    <h1>Dispatched</h1>
+                  </div>
+                  <div class="bee">
+                    <div class="pic">
+                      <img src="/images/1.jpg">
+                    </div>
+                    <div class="details">
+                      <a href="#">Educart Most Recommended Combo | Maths (STANDARD) + Science + Social Science + English
+                        CBSE Sample Papers Books Of Class 10</a>
+                      <p class="seller">Sold by: <a href="#">Satyam Traders</a></p>
+                      <p class="price">₹500.00</p>
+                      <button id="again">
+                        <img src="/images/buy-again.png">
+                        <span>Buy it again</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="right">
+                  <a href="#" id="track">Track package</a>
+                  <a href="#">Request cancellation</a>
+                  <a href="#">Write a product review</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+
+      <script src="/js/index.js"></script>
+      <%- include('../partials/footer') %>

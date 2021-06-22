@@ -1,0 +1,76 @@
+section#categories {
+  width: 100%;
+  margin: 1rem 0;
+  padding: 1rem;
+  font-family: raleway;
+}
+
+section#categories h1 {
+  display: block;
+  text-align: center;
+  position: relative;
+  padding-bottom: 5px;
+  -webkit-columns: #333;
+  columns: #333;
+  margin-bottom: 1rem;
+}
+
+section#categories h1::before {
+  position: absolute;
+  width: 8%;
+  content: "";
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  border-bottom: 2px solid red;
+}
+
+section#categories .category_area {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section#categories .category_area a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+  width: 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: auto;
+}
+
+section#categories .category_area a:hover > .img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+section#categories .category_area a .img {
+  display: block;
+  width: 10rem;
+  height: 10rem;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  transition: -webkit-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}

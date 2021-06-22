@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include('../partials/head') %>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/form-head.css">
+    <link rel="stylesheet" href="/css/form.css">
+</head>
+
+<body>
+  <main>
+    <section id="head">
+      <a href="/">
+        <img src="/images/fav.png">
+        <span>Koshigo</span>
+      </a>
+    </section>
+    <section id="form">
+      <div class="box fufy">
+        <div class="right"></div>
+        <form action="/signin" method="POST" class="left">
+          <h1>Create Account</h1>
+          <label for="">Email</label>
+          <input type="email" name="email" required>
+          <label for="">Password</label>
+          <input type="password" name="password" required>
+          <button type="submit">Sign in</button>
+          <p>Don't have an account? <a href="/register">Create Account</a></p>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

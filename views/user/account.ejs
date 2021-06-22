@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include('../partials/head') %>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/sidebar.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/data.css">
+    <link rel="stylesheet" href="/css/account.css">
+
+</head>
+
+<body>
+  <div id="wrapper"></div>
+  <%- include('../partials/header') %>
+    <%- include('../partials/sidebar') %>
+
+      <main>
+        <section id="data">
+          <img src="/images/myImg.jpg">
+          <h2>Satyam Kumar</h2>
+          <p>satyam20112006@gmail.com</p>
+        </section>
+        <section id="account">
+          <h1>Your Account</h1>
+          <div class="account_area">
+            <a href="#" class="box">
+              <img src="/images/box-icon.png">
+              <div class="right">
+                <p class="head">Your Orders</p>
+                <p class="txt">Track and buy things again</p>
+              </div>
+            </a>
+            <a href="#" class="box">
+              <img src="/images/lock-icon.png">
+              <div class="right">
+                <p class="head">Login & security</p>
+                <p class="txt">Edit login, name, and mobile number</p>
+              </div>
+            </a>
+            <a href="#" class="box">
+              <img src="/images/address-icon.png">
+              <div class="right">
+                <p class="head">Your Addresses</p>
+                <p class="txt">Edit, add or remove addresses for orders</p>
+              </div>
+            </a>
+            <a href="#" class="box">
+              <img src="/images/payment-icon.png">
+              <div class="right">
+                <p class="head">Payment options</p>
+                <p class="txt">Edit or add payment methods</p>
+              </div>
+            </a>
+          </div>
+        </section>
+      </main>
+
+      <script src="/js/index.js"></script>
+      <%- include('../partials/footer') %>

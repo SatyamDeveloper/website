@@ -1,0 +1,62 @@
+@font-face {
+  font-family: ubuntu;
+  src: url(/fonts/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+  font-family: nunito;
+  src: url(/fonts/NunitoSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: raleway;
+  src: url(/fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(/fonts/Roboto-Regular.ttf);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background: #f2f2f2;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9990;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  display: none;
+}
+
+img,
+svg {
+  width: 30px;
+}
+
+main {
+  width: 100%;
+}

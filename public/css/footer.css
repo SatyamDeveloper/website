@@ -1,0 +1,55 @@
+footer {
+  width: 100%;
+  background: #182c61;
+  color: #fff;
+  margin-top: auto;
+}
+
+footer .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+footer .bottom p {
+  font-family: roboto;
+  font-size: 14px;
+}
+
+footer .bottom .connect {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+}
+
+footer .bottom .connect a {
+  text-decoration: none;
+  color: currentColor;
+  margin: 0 10px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+footer .bottom .connect a svg {
+  width: 22px;
+  fill: currentColor;
+}

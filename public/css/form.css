@@ -1,0 +1,192 @@
+section#form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 40rem;
+}
+
+section#form .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  min-height: 30rem;
+  background: #fff;
+  -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+section#form .box.fufy .right {
+  background-image: url("/images/backImg.jpg!d");
+}
+
+section#form .box .left {
+  -ms-flex-preferred-size: 42%;
+  flex-basis: 42%;
+  padding: 15px 30px;
+  font-family: nunito;
+}
+
+section#form .box .left h1 {
+  font-size: 28px;
+  margin-bottom: 1rem;
+}
+
+section#form .box .left label,
+section#form .box .left input {
+  display: block;
+}
+
+section#form .box .left label {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 0 2px;
+  margin-top: 10px;
+}
+
+section#form .box .left .file {
+  margin: 5px auto 2px;
+  width: 8rem;
+  height: 8rem;
+  position: relative;
+  border-radius: 50%;
+  border: 2px dashed #222;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+section#form .box .left .file span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 50%;
+  color: #fff;
+  pointer-events: none;
+  opacity: 0;
+}
+
+section#form .box .left .file.data {
+  border-style: solid;
+}
+
+section#form .box .left .file.data img {
+  display: block;
+}
+
+section#form .box .left .file.data svg {
+  display: none;
+}
+
+section#form .box .left .file.data:hover > span {
+  opacity: 1;
+}
+
+section#form .box .left .file input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  opacity: 0;
+  pointer-events: none;
+}
+
+section#form .box .left .file img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: none;
+}
+
+section#form .box .left .file svg {
+  width: 30px;
+  height: 30px;
+  margin: 1rem;
+}
+
+section#form .box .left input {
+  width: 100%;
+  padding: 6px 4px;
+  font-size: 15px;
+  margin: 5px 0 2px;
+}
+
+section#form .box .left input:focus {
+  outline-color: #4040aa;
+}
+
+section#form .box .left .info {
+  font-size: 14px;
+}
+
+section#form .box .left button {
+  margin: 1rem 0;
+  width: 15rem;
+  padding: 10px 0;
+  cursor: pointer;
+  font-size: 16px;
+  border: 2px solid #4040aa;
+  background: #fff;
+  color: #40407a;
+  -webkit-transition: background-color 0.1s ease-in-out;
+  transition: background-color 0.1s ease-in-out;
+  outline: none;
+}
+
+section#form .box .left button:hover,
+section#form .box .left button:focus {
+  color: #fff;
+  background: #4040aa;
+}
+
+section#form .box .left p a {
+  text-decoration: none;
+  color: blue;
+}
+
+section#form .box .left p a:hover,
+section#form .box .left p a:focus {
+  text-decoration: underline;
+}
+
+section#form .box .right {
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+  background-image: url(/images/backImg2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
